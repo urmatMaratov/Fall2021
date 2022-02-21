@@ -1,0 +1,4 @@
+a) TTD --> Test Driven Development(1.code--> 2.Testing)
+b) BDD --> Behavior driven development( scenario--> test)
+mvn clean install  "-Dcucumber.options=tags @Smoke"
+mvn clean install  "-Dcucumber.options=tags @Regression"
